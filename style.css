@@ -1,0 +1,43 @@
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.card{
+display:inline-block;
+justify-items: center;
+margin: 100px;
+
+}
+
+.caurosel-items{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    margin: 100px;
+}
+
+.containercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.footer{
+    background-color:rgb(190, 190, 190);
+    padding: 20px;
+    text-align: center;
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
